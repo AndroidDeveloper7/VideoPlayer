@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="seekBarRotation">
+            <enum name="CW90" value="90" />
+            <enum name="CW270" value="270" />
+        </attr>
+    </declare-styleable>
+    <attr name="defaultFooterColor" format="color"></attr>
+
+    <attr name="iconColor" format="color"></attr>
+    <attr name="ate_key" format="string" />
+</resources>

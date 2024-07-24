@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kabouzeid.appthemehelper.common.prefs.ATEPreferenceCategory>
+        <com.kabouzeid.appthemehelper.common.prefs.ATEPreference
+            android:key="Orientation"
+            android:summary="Portrait"
+            android:title="@string/Orientation"
+            app:iconSpaceReserved="false" />
+
+        <com.kabouzeid.appthemehelper.common.prefs.ATEPreference
+            android:key="Resume"
+            android:summary="Aks at Startup"
+            android:title="Resume Video"
+            app:iconSpaceReserved="false" />
+
+        <com.kabouzeid.appthemehelper.common.prefs.ATESwitchPreference
+            android:defaultValue="true"
+            android:key="autoplayon"
+            android:persistent="true"
+            android:summary="Auto play to next video"
+            android:title="Auto Play"
+            app:ateKey_pref_switch="?attr/ate_key"
+            app:iconSpaceReserved="false" />
+
+        <com.kabouzeid.appthemehelper.common.prefs.ATESwitchPreference
+            android:defaultValue="true"
+            android:key="batterylock"
+            android:persistent="false"
+            android:summary="Battery or time seen during video play"
+            android:title="Battery/Lock"
+            app:ateKey_pref_switch="?attr/ate_key"
+            app:iconSpaceReserved="false" />
+
+    </com.kabouzeid.appthemehelper.common.prefs.ATEPreferenceCategory>
+</PreferenceScreen>

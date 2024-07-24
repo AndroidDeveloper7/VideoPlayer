@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_moreapps"
+        android:icon="@drawable/ic_colormoreapp"
+        android:title="More Apps"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Refresh"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/hide_videos"
+        android:icon="@drawable/ic_folder_special"
+        android:title="Hide Videos"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_sort_black_24dp"
+        android:title="@string/sort_menu_title"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/name_sort_mode"
+                    android:enabled="true"
+                    android:title="@string/name" />
+                <item
+                    android:id="@+id/date_taken_sort_mode"
+                    android:enabled="true"
+                    android:title="@string/date" />
+                <item
+                    android:id="@+id/size_sort_mode"
+                    android:enabled="true"
+                    android:title="@string/size" />
+                <item
+                    android:id="@+id/numeric_sort_mode"
+                    android:enabled="true"
+                    android:title="@string/numeric" />
+            </group>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/ascending_sort_order"
+                    android:checkable="true"
+                    android:title="@string/ascending"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>

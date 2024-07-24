@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lock"
+        android:title="Lock"
+        android:visible="false" />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:visible="false" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        android:visible="false" />
+    <item
+        android:id="@+id/properties"
+        android:title="Properties" />
+    <item
+        android:id="@+id/rename"
+        android:title="Rename"
+        android:visible="false" />
+    <item
+        android:id="@+id/retag"
+        android:title="Retag"
+        android:visible="false" />
+    <item
+        android:id="@+id/help"
+        android:title="Help "
+        android:visible="false" />
+</menu>

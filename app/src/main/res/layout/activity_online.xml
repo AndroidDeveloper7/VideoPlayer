@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ol_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/toolbar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlo_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.telegram.videoplayer.downloader.utils.SquareFrameLayout
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="22dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_back" />
+            </com.telegram.videoplayer.downloader.utils.SquareFrameLayout>
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/clear"
+                android:layout_toRightOf="@+id/back"
+                android:hint="@string/search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:textColor="@color/cardview_light_background"
+                android:textColorHint="@color/white_back" />
+
+            <com.telegram.videoplayer.downloader.utils.SquareFrameLayout
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/img_clear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="19dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_close_black_24dp" />
+            </com.telegram.videoplayer.downloader.utils.SquareFrameLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lil_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.telegram.videoplayer.downloader.utils.SquareFrameLayout
+                android:id="@+id/backs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/img_backs"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:padding="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_back" />
+            </com.telegram.videoplayer.downloader.utils.SquareFrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/online_player_name"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+            <com.telegram.videoplayer.downloader.utils.SquareFrameLayout
+                android:id="@+id/layout_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+
+                <ImageView
+                    android:id="@+id/img_ic_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="19dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_search" />
+            </com.telegram.videoplayer.downloader.utils.SquareFrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlo_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ol_action_bar">
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/ol_category_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

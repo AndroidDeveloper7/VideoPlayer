@@ -1,0 +1,85 @@
+<resources>
+
+    <string name="Facebook_Native_placement">481752083013042_661073511747565</string>
+    <string name="Facebook_Interstitial_placement">481752083013042_481757326345852</string>
+    <string name="Facebook_banner_placement">481752083013042_661070595081180</string>
+
+    <!--    <string name="Facebook_Native_placement">549167759165615_551513495597708</string>-->
+    <!--    <string name="Facebook_Interstitial_placement">481752083013042_481757326345851</string>-->
+    <!--    <string name="Facebook_banner_placement">481752083013042_661070595081189</string>-->
+
+    <string name="Orientation">Orientation</string>
+    <string name="how_to_use">https://t.me/+Lt4r7LDztBY5ZGM1</string>
+    <string name="_25">25%</string>
+    <string name="_3gp">3gp</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="action_sleep_timer">Sleep timer</string>
+    <string name="app_name">Teleplayer</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="ascending">Ascending</string>
+    <string name="cancel">Cancel</string>
+    <string name="date">Date</string>
+    <string name="delete_now">Delete now</string>
+    <string name="deleting">Deleting..</string>
+    <string name="duration">As duration</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="mkv">mkv</string>
+    <string name="mp4">mp4</string>
+    <string name="name">Name</string>
+    <string name="no_duplicate_files_found">No Duplicate Files Found</string>
+    <string name="numeric">As number</string>
+    <string name="ok">OK</string>
+    <string name="preset_large_hall">Large Hall</string>
+    <string name="preset_large_room">Large Room</string>
+    <string name="preset_medium_hall">Medium Hall</string>
+    <string name="preset_medium_room">Medium Room</string>
+    <string name="preset_none">None</string>
+    <string name="preset_plate">Plate</string>
+    <string name="preset_small_room">Small Room</string>
+    <string name="primary_text_color">Primary Text Color</string>
+    <string name="private_folder_name">private_videos</string>
+    <string name="recycler_folder_name">recover_videos</string>
+    <string name="online_player_name">Tube Play</string>
+
+    <string name="reverb">Reverb</string>
+    <string name="secondary_text_color">Secondary Text Color</string>
+    <string name="size">Size</string>
+    <string name="sleep_timer_canceled">Sleep timer canceled.</string>
+    <string name="sleep_timer_set">Sleep timer set for %d minutes from now.</string>
+    <string name="sort_menu_title">Sort by</string>
+    <string name="track_selection_title">Track Selection</string>
+    <string name="webm">webm</string>
+    <string name="title_warning_close_app">Do you want to Close this app?</string>
+    <string name="txt_yes">Yes</string>
+
+    //Live id:-
+    <string name="app_id">ca-app-pub-4668521313229908~9699944824</string>
+    <!--       <string name="ads_native">ca-app-pub-4668521313229908/1094680583</string>
+          <string name="interstitial">ca-app-pub-4668521313229908/9304343096</string>
+           <string name="banner">ca-app-pub-4668521313229908/1808996454</string> -->
+
+    //Test id:-
+    <!--       <string name="appopen">ca-app-pub-3940256099942544/3419835296</string>-->
+    <!--       <string name="banner">ca-app-pub-3940256099942544/6300978112</string>-->
+    <!--    <string name="interstitial">ca-app-pub-3940256099942544/1033173713</string>-->
+    <!--    <string name="ads_native">ca-app-pub-3940256099942544/2247696111</string>-->
+    <string name="no_button">No</string>
+
+    App Open
+    <string name="appopen">/21753324030,22883623026/com.telegram.videoplayer.downloader_AppOpen</string>
+
+    Banner
+    <string name="banner">/21753324030,22883623026/com.telegram.videoplayer.downloader_Banner</string>
+
+    Interstitial
+    <string name="interstitial">/21753324030,22883623026/com.telegram.videoplayer.downloader_Interstitial</string>
+
+    Native
+    <string name="ads_native">/21753324030,22883623026/com.telegram.videoplayer.downloader_Native</string>
+
+    Rectangle
+    <string name="rectangle">/21753324030,22883623026/com.telegram.videoplayer.downloader_Rectangle</string>
+
+</resources>
